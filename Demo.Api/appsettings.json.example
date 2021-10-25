@@ -1,0 +1,29 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Error",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "CommonSettings": {
+    "SqlConnectionString": "",
+    "ShowSwagger": true,
+    "ShowHangfileDashboard": true
+  },
+  "JwtSettings": {
+    "ValidAudience": "",
+    "ValidIssuer": "",
+    "Secret": "",
+    "TokenExpiryTimeInSeconds": 1800,
+    "RefreshTokenExpiryTimeInDays": 1
+  },
+  "MailSettings": {
+    "From": "",
+    "Host": "",
+    "Port": 0,
+    "Login": "",
+    "Password": ""
+  }
+}
